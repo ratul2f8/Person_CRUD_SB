@@ -1,0 +1,6 @@
+CREATE TABLE Person(
+   id UUID NOT NULL PRIMARY KEY,
+   name VARCHAR(100) NOT NULL,
+   bloodgroup VARCHAR(3) NOT NULL,
+   age INT NOT NULL
+)
